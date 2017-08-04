@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    app:cardElevation="8dp"
+    app:cardUseCompatPadding="true"
+    app:cardBackgroundColor="#FFFFCC">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="131dp"
+        app:srcCompat="@drawable/banner" />
+
+    <TextView
+        android:id="@+id/txtmedInformation"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.37"
+        android:textColor="#000000"
+        android:text="Today's Medication"
+        android:gravity="center_vertical"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/txtmedName"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.37"
+        android:textColor="#000000"
+        android:gravity="center_vertical" />
+
+    <TextView
+        android:id="@+id/txtmedDosage"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.16"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtmedTime"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="1dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.37"
+        android:gravity="center_vertical"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/txtmedDate"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.37"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/txtRemarks"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_weight="0.16"
+        android:gravity="center_vertical"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
+</android.support.v7.widget.CardView>
